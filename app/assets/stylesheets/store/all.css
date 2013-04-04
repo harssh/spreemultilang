@@ -1,0 +1,99 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *
+
+ *= require store/spree_core
+ *= require store/spree_auth
+ *= require store/spree_promo
+
+ *= require_self
+ *= require_tree .
+ *= require store/spree_multi_lingual
+ *= require store/spree_minicart
+*/
+
+
+
+      
+
+ html[dir="rtl"] aside#sidebar {
+ 	   float: right;
+      text-align: right;
+
+      ul {
+        padding-right: 0 !important;
+
+        li {
+          list-style-type: none;
+        }
+      }
+    }
+    
+    #nav{
+    	float: right;
+    }
+    
+  html[dir="rtl"]   #nav{
+    	float: left;
+    }
+   html[dir="rtl"]   #product-images {
+    #main-image {
+      float: right !important;
+      
+      border: 1px solid lighten($body_text_color, 60);
+     
+
+      img {
+        min-height: 240px;
+      }
+    }
+    #product-thumbnails {
+      li {
+        background-color: $product_background_color;
+      }
+    }
+  }
+
+  html[dir="rtl"] .container .six.columns {
+    float: right;
+    width: 340px;
+}
+  
+ 
+  
+   /*-------------------------------------- *= require store/spree_minicart
+*/
+  /* Main search bar
+/*-------------------------------------- *= require store/spree_minicart
+*/
+html[dir="rtl"]   #search-bar {
+	
+    display: block;
+    margin-top: 10px;
+  }
+
+ html[dir="rtl"]  #link-to-login {
+      display: block;
+      text-align: left;
+    }
+
+
+ 
+ html[dir="rtl"]  nav#top-nav-bar {
+    margin-top: 20px;
+    text-align: left;
+}
+
+  /*-------------------------------------- *= require store/spree_minicart
+*/
+  /* link to cart and home for arabic
+/*-------------------------------------- *= require store/spree_minicart
+*/
+
+ html[dir="rtl"]  nav #main-nav-bar li#link-to-cart {
+    background: url("cart.png") no-repeat scroll left center transparent;
+    float: left;
+    padding-left: 24px;
+}

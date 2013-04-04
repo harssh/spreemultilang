@@ -1,0 +1,365 @@
+GIT
+  remote: git://github.com/hooktstudios/spree_multi_lingual.git
+  revision: e8e33c910757bdf0abf3b6c25ce52d40305c967d
+  specs:
+    spree_multi_lingual (0.1.0.alpha1)
+      coffee-rails
+      easy_globalize3_accessors
+      globalize3 (~> 0.2.0.beta8)
+      i18n
+      rack-contrib
+      routing-filter (~> 0.3.1)
+      spree_core (~> 1.1.0)
+
+GIT
+  remote: git://github.com/spree/spree-product-assembly.git
+  revision: 0762ee0a465865b5be9c5ccd0fc833314adf82fb
+  branch: 1-0-stable
+  specs:
+    spree_product_assembly (1.0.0)
+      spree (~> 1.0)
+
+GIT
+  remote: git://github.com/spree/spree_active_shipping
+  revision: 350857e7690113fbcfd54f8da755eb43ec0da345
+  branch: 1-3-stable
+  specs:
+    spree_active_shipping (1.1.0)
+      active_shipping (~> 0.9.13)
+      spree_core (~> 1.0)
+
+GIT
+  remote: git://github.com/spree/spree_gateway.git
+  revision: 71fe33eee66969b08ce05eb309894e75cf48099f
+  branch: 1-3-stable
+  specs:
+    spree_gateway (1.2.0.rc2)
+      savon
+      spree_core (~> 1.0)
+
+GIT
+  remote: git://github.com/spree/spree_paypal_express.git
+  revision: 6dd48d48f9c43a41ae52ab806797817c1cd76262
+  branch: 1-1-stable
+  specs:
+    spree_paypal_express (1.1.0)
+      spree_auth (>= 1.0.0)
+      spree_core (>= 1.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    actionmailer (3.2.8)
+      actionpack (= 3.2.8)
+      mail (~> 2.4.4)
+    actionpack (3.2.8)
+      activemodel (= 3.2.8)
+      activesupport (= 3.2.8)
+      builder (~> 3.0.0)
+      erubis (~> 2.7.0)
+      journey (~> 1.0.4)
+      rack (~> 1.4.0)
+      rack-cache (~> 1.2)
+      rack-test (~> 0.6.1)
+      sprockets (~> 2.1.3)
+    active_shipping (0.9.14)
+      active_utils (>= 1.0.1)
+      activesupport (>= 2.3.5)
+      builder
+      i18n
+      json (>= 1.5.1)
+    active_utils (1.0.5)
+      activesupport (>= 2.3.11)
+      i18n
+    activemerchant (1.20.4)
+      active_utils (>= 1.0.2)
+      activesupport (>= 2.3.11)
+      braintree (>= 2.0.0)
+      builder (>= 2.0.0)
+      i18n
+      json (>= 1.5.1)
+      money (<= 3.7.1)
+    activemodel (3.2.8)
+      activesupport (= 3.2.8)
+      builder (~> 3.0.0)
+    activerecord (3.2.8)
+      activemodel (= 3.2.8)
+      activesupport (= 3.2.8)
+      arel (~> 3.0.2)
+      tzinfo (~> 0.3.29)
+    activeresource (3.2.8)
+      activemodel (= 3.2.8)
+      activesupport (= 3.2.8)
+    activesupport (3.2.8)
+      i18n (~> 0.6)
+      multi_json (~> 1.0)
+    acts_as_list (0.1.4)
+    akami (1.2.0)
+      gyoku (>= 0.4.0)
+      nokogiri (>= 1.4.0)
+    arel (3.0.2)
+    aws-sdk (1.3.9)
+      httparty (~> 0.7)
+      json (~> 1.4)
+      nokogiri (>= 1.4.4)
+      uuidtools (~> 2.1)
+    bcrypt-ruby (3.0.1)
+    bcrypt-ruby (3.0.1-x86-mingw32)
+    braintree (2.22.0)
+      builder (>= 2.0.0)
+    builder (3.0.4)
+    cancan (1.6.7)
+    climate_control (0.0.3)
+      activesupport (>= 3.0)
+    cocaine (0.5.1)
+      climate_control (>= 0.0.3, < 1.0)
+    coffee-rails (3.2.2)
+      coffee-script (>= 2.2.0)
+      railties (~> 3.2.0)
+    coffee-script (2.2.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.5.0)
+    datashift (0.13.0)
+      rubyzip
+      spreadsheet
+    datashift_spree (0.5.0)
+      datashift (>= 0.12.0)
+      mechanize
+    deface (0.9.1)
+      nokogiri (~> 1.5.0)
+      rails (~> 3.1)
+    devise (2.0.5)
+      bcrypt-ruby (~> 3.0)
+      orm_adapter (~> 0.0.3)
+      railties (~> 3.1)
+      warden (~> 1.1.1)
+    domain_name (0.5.7)
+      unf (~> 0.0.3)
+    easy_globalize3_accessors (1.2.0)
+      globalize3 (~> 0.2.0.beta1)
+    erubis (2.7.0)
+    execjs (1.4.0)
+      multi_json (~> 1.0)
+    ffaker (1.12.1)
+    globalize3 (0.2.0)
+      activemodel (>= 3.0.0)
+      activerecord (>= 3.0.0)
+      paper_trail (~> 2)
+    gyoku (1.0.0)
+      builder (>= 2.1.2)
+    highline (1.6.11)
+    hike (1.2.1)
+    httparty (0.8.3)
+      multi_json (~> 1.0)
+      multi_xml
+    httpi (2.0.2)
+      rack
+    i18n (0.6.4)
+    journey (1.0.4)
+    jquery-rails (2.0.3)
+      railties (>= 3.1.0, < 5.0)
+      thor (~> 0.14)
+    json (1.7.7)
+    kaminari (0.14.1)
+      actionpack (>= 3.0.0)
+      activesupport (>= 3.0.0)
+    mail (2.4.4)
+      i18n (>= 0.4.0)
+      mime-types (~> 1.16)
+      treetop (~> 1.4.8)
+    mechanize (2.5.1)
+      domain_name (~> 0.5, >= 0.5.1)
+      mime-types (~> 1.17, >= 1.17.2)
+      net-http-digest_auth (~> 1.1, >= 1.1.1)
+      net-http-persistent (~> 2.5, >= 2.5.2)
+      nokogiri (~> 1.4)
+      ntlm-http (~> 0.1, >= 0.1.1)
+      webrobots (~> 0.0, >= 0.0.9)
+    mime-types (1.21)
+    money (3.7.1)
+      i18n (~> 0.4)
+    multi_json (1.6.1)
+    multi_xml (0.5.3)
+    nested_set (1.7.0)
+      activerecord (>= 3.0.0)
+      railties (>= 3.0.0)
+    net-http-digest_auth (1.2.1)
+    net-http-persistent (2.8)
+    nokogiri (1.5.6)
+    nokogiri (1.5.6-x86-mingw32)
+    nori (2.0.4)
+    ntlm-http (0.1.1)
+    orm_adapter (0.0.7)
+    paper_trail (2.7.1)
+      activerecord (~> 3.0)
+      railties (~> 3.0)
+    paperclip (2.8.0)
+      activerecord (>= 2.3.0)
+      activesupport (>= 2.3.2)
+      cocaine (>= 0.0.2)
+      mime-types
+    polyamorous (0.5.0)
+      activerecord (~> 3.0)
+    polyglot (0.3.3)
+    rabl (0.6.5)
+      activesupport (>= 2.3.14)
+      multi_json (~> 1.0)
+    rack (1.4.5)
+    rack-cache (1.2)
+      rack (>= 0.4)
+    rack-contrib (1.1.0)
+      rack (>= 0.9.1)
+    rack-ssl (1.3.3)
+      rack
+    rack-test (0.6.2)
+      rack (>= 1.0)
+    rails (3.2.8)
+      actionmailer (= 3.2.8)
+      actionpack (= 3.2.8)
+      activerecord (= 3.2.8)
+      activeresource (= 3.2.8)
+      activesupport (= 3.2.8)
+      bundler (~> 1.0)
+      railties (= 3.2.8)
+    railties (3.2.8)
+      actionpack (= 3.2.8)
+      activesupport (= 3.2.8)
+      rack-ssl (~> 1.3.2)
+      rake (>= 0.8.7)
+      rdoc (~> 3.4)
+      thor (>= 0.14.6, < 2.0)
+    rake (10.0.3)
+    ransack (0.6.0)
+      actionpack (~> 3.0)
+      activerecord (~> 3.0)
+      polyamorous (~> 0.5.0)
+    rdiscount (1.6.8)
+    rdoc (3.12.2)
+      json (~> 1.4)
+    routing-filter (0.3.1)
+      actionpack
+    ruby-ole (1.2.11.6)
+    rubyzip (0.9.9)
+    sass (3.2.6)
+    sass-rails (3.2.6)
+      railties (~> 3.2.0)
+      sass (>= 3.1.10)
+      tilt (~> 1.3)
+    savon (2.1.0)
+      akami (~> 1.2.0)
+      builder (>= 2.1.2)
+      gyoku (~> 1.0.0)
+      httpi (~> 2.0.2)
+      nokogiri (>= 1.4.0)
+      nori (~> 2.0.3)
+      wasabi (~> 3.0.0)
+    spreadsheet (0.8.2)
+      ruby-ole (>= 1.0)
+    spree (1.1.2)
+      spree_api (= 1.1.2)
+      spree_auth (= 1.1.2)
+      spree_cmd (= 1.1.2)
+      spree_core (= 1.1.2)
+      spree_dash (= 1.1.2)
+      spree_promo (= 1.1.2)
+      spree_sample (= 1.1.2)
+    spree_api (1.1.2)
+      rabl (= 0.6.5)
+      spree_auth (= 1.1.2)
+      spree_core (= 1.1.2)
+    spree_auth (1.1.2)
+      cancan (= 1.6.7)
+      devise (~> 2.0.0)
+      spree_core (= 1.1.2)
+    spree_cmd (1.1.2)
+      thor (= 0.14.6)
+    spree_core (1.1.2)
+      activemerchant (= 1.20.4)
+      acts_as_list (= 0.1.4)
+      aws-sdk (~> 1.3.4)
+      deface (>= 0.9.0)
+      ffaker (~> 1.12.0)
+      highline (= 1.6.11)
+      jquery-rails (~> 2.0.0)
+      kaminari (>= 0.13.0)
+      nested_set (= 1.7.0)
+      paperclip (~> 2.7)
+      rails (~> 3.2.6)
+      ransack (~> 0.6.0)
+      state_machine (= 1.1.2)
+      stringex (~> 1.3.2)
+    spree_dash (1.1.2)
+      httparty (~> 0.8.1)
+      spree_auth (= 1.1.2)
+      spree_core (= 1.1.2)
+    spree_essential_cms (0.4.0)
+      spree_essentials (~> 0.5.0)
+    spree_essentials (0.5.0)
+      rdiscount (~> 1.6.8)
+      spree_core (~> 1.1.0)
+    spree_minicart (1.1.3)
+      spree_core (~> 1.1.0)
+      spree_sample
+    spree_promo (1.1.2)
+      spree_auth (= 1.1.2)
+      spree_core (= 1.1.2)
+    spree_sample (1.1.2)
+      spree_core (= 1.1.2)
+    spree_skrill (1.0.2)
+      spree_core (>= 1.0.0)
+    spree_usa_epay (1.0.2)
+      savon
+      spree_core (>= 1.0.0)
+    sprockets (2.1.3)
+      hike (~> 1.2)
+      rack (~> 1.0)
+      tilt (~> 1.1, != 1.3.0)
+    sqlite3 (1.3.7)
+    sqlite3 (1.3.7-x86-mingw32)
+    state_machine (1.1.2)
+    stringex (1.3.3)
+    thor (0.14.6)
+    tilt (1.3.4)
+    treetop (1.4.12)
+      polyglot
+      polyglot (>= 0.3.1)
+    tzinfo (0.3.35)
+    uglifier (1.3.0)
+      execjs (>= 0.3.0)
+      multi_json (~> 1.0, >= 1.0.2)
+    unf (0.0.5)
+      unf_ext
+    unf_ext (0.0.6)
+    unf_ext (0.0.6-x86-mingw32)
+    uuidtools (2.1.3)
+    warden (1.1.1)
+      rack (>= 1.0)
+    wasabi (3.0.0)
+      httpi (~> 2.0)
+      nokogiri (>= 1.4.0)
+    webrobots (0.1.0)
+
+PLATFORMS
+  ruby
+  x86-mingw32
+
+DEPENDENCIES
+  coffee-rails (~> 3.2.1)
+  datashift
+  datashift_spree
+  jquery-rails
+  rails (= 3.2.8)
+  sass-rails (~> 3.2.3)
+  spree (= 1.1.2)
+  spree_active_shipping!
+  spree_essential_cms (~> 0.4.0)
+  spree_gateway!
+  spree_minicart (~> 1.1.0)
+  spree_multi_lingual!
+  spree_paypal_express!
+  spree_product_assembly!
+  spree_skrill
+  spree_usa_epay
+  sqlite3
+  uglifier (>= 1.0.3)

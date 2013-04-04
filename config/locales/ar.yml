@@ -1,0 +1,1354 @@
+ar:
+  date:
+    abbr_day_names:
+    - الأحد
+    - الإثنين
+    - الثلاثاء
+    - الأربعاء
+    - الخميس
+    - الجمعة
+    - السبت
+    abbr_month_names:
+    - 
+    - يناير
+    - فبراير
+    - مارس
+    - ابريل
+    - مايو
+    - يونيو
+    - يوليو
+    - اغسطس
+    - سبتمبر
+    - اكتوبر
+    - نوفمبر
+    - ديسمبر
+    day_names:
+    - الأحد
+    - الإثنين
+    - الثلاثاء
+    - الأربعاء
+    - الخميس
+    - الجمعة
+    - السبت
+    formats:
+      default: ! '%Y-%m-%d'
+      long: ! '%B %e, %Y'
+      short: ! '%e %b'
+    month_names:
+    - 
+    - يناير
+    - فبراير
+    - مارس
+    - ابريل
+    - مايو
+    - يونيو
+    - يوليو
+    - اغسطس
+    - سبتمبر
+    - اكتوبر
+    - نوفمبر
+    - ديسمبر
+    order:
+    - :day
+    - :month
+    - :year
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        zero: ! '%{count} ساعات'
+        one: حوالي ساعة واحدة
+        two: ! '%{count} ساعات'
+        few: ! '%{count} ساعات'
+        many: ! '%{count} ساعات'
+        other: ! '%{count} ساعات'
+      about_x_months:
+        zero: ! '%{count} أشهر'
+        one: حوالي شهر واحد
+        two: ! '%{count} أشهر'
+        few: ! '%{count} أشهر'
+        many: ! '%{count} أشهر'
+        other: ! '%{count} أشهر'
+      about_x_years:
+        zero: ! '%{count} سنوات'
+        one: حوالي سنة
+        two: ! '%{count} سنوات'
+        few: ! '%{count} سنوات'
+        many: ! '%{count} سنوات'
+        other: ! '%{count} سنوات'
+      almost_x_years:
+        zero: ما يقرب من %{count} سنة
+        one: تقريبا سنة واحدة
+        two: ما يقرب من %{count} سنة
+        few: ما يقرب من %{count} سنة
+        many: ما يقرب من %{count} سنة
+        other: ما يقرب من %{count} سنة
+      half_a_minute: نصف دقيقة
+      less_than_x_minutes:
+        zero: ! '%{count} دقائق'
+        one: أقل من دقيقة
+        two: ! '%{count} دقائق'
+        few: ! '%{count} دقائق'
+        many: ! '%{count} دقائق'
+        other: ! '%{count} دقائق'
+      less_than_x_seconds:
+        zero: ! '%{count} ثوان'
+        one: أقل من ثانية
+        two: ! '%{count} ثوان'
+        few: ! '%{count} ثوان'
+        many: ! '%{count} ثوان'
+        other: ! '%{count} ثوان'
+      over_x_years:
+        zero: ! '%{count} سنوات'
+        one: أكثر من سنة
+        two: ! '%{count} سنوات'
+        few: ! '%{count} سنوات'
+        many: ! '%{count} سنوات'
+        other: ! '%{count} سنوات'
+      x_days:
+        zero: ! '%{count} أيام'
+        one: يوم واحد
+        two: ! '%{count} أيام'
+        few: ! '%{count} أيام'
+        many: ! '%{count} أيام'
+        other: ! '%{count} أيام'
+      x_minutes:
+        zero: ! '%{count} دقائق'
+        one: دقيقة واحدة
+        two: ! '%{count} دقائق'
+        few: ! '%{count} دقائق'
+        many: ! '%{count} دقائق'
+        other: ! '%{count} دقائق'
+      x_months:
+        zero: ! '%{count} أشهر'
+        one: شهر واحد
+        two: ! '%{count} أشهر'
+        few: ! '%{count} أشهر'
+        many: ! '%{count} أشهر'
+        other: ! '%{count} أشهر'
+      x_seconds:
+        zero: ! '%{count} ثوان'
+        one: ثانية واحدة
+        two: ! '%{count} ثوان'
+        few: ! '%{count} ثوان'
+        many: ! '%{count} ثوان'
+        other: ! '%{count} ثوان'
+    prompts:
+      day: اليوم
+      hour: ساعة
+      minute: دقيقة
+      month: الشهر
+      second: ثانية
+      year: السنة
+  errors: &errors
+    format: ! '%{attribute} %{message}'
+    messages:
+      accepted: يجب أن تقبل
+      blank: فارغ، يرجى ملء الحقل
+      confirmation: لا تتوافق مع التأكيد
+      empty: فارغ، يرجى ملء الحقل
+      equal_to: يجب أن يساوي %{count}
+      even: يجب أن يكون زوجي
+      exclusion: محجوز
+      greater_than: يجب أن يكون أكبر من %{count}
+      greater_than_or_equal_to: يجب أن يكون أكبر من أو يساوي %{count}
+      inclusion: ليس خيارا مقبولا
+      invalid: غير معرف أو محدد
+      less_than: يجب أن يكون أصغر من %{count}
+      less_than_or_equal_to: يجب أن يكون أصغر من أو يساوي %{count}
+      not_a_number: ليس رقما
+      not_an_integer: يجب أن يكون صحيحا
+      odd: يجب أن يكون فردي
+      record_invalid: ! '%{errors} فشل التحقق من صحة'
+      taken: غير متوفر (مستخدم)
+      too_long: أطول من اللازم (الحد الأقصى هو %{count})
+      too_short: أقصر من اللازم (الحد الأدنى هو %{count})
+      wrong_length: بطول غير مناسب (يجب أن يكون %{count})
+    template:
+      body: ! 'يرجى التحقق من الحقول التالية:'
+      header:
+        zero: ! 'ليس بالامكان حفظ %{model}: %{count} أخطاء.'
+        one: ! 'ليس بالامكان حفظ %{model}: خطأ واحد.'
+        two: ! 'ليس بالامكان حفظ %{model}: %{count} أخطاء.'
+        few: ! 'ليس بالامكان حفظ %{model}: %{count} أخطاء.'
+        many: ! 'ليس بالامكان حفظ %{model}: %{count} أخطاء.'
+        other: ! 'ليس بالامكان حفظ %{model}: %{count} أخطاء.'
+  helpers:
+    select:
+      prompt: الرجاء اختيار
+    submit:
+      create: ! '%{model} إنشاء'
+      submit: ! '%{model} حفظ'
+      update: ! '%{model} نموذج'
+  number:
+    currency:
+      format:
+        delimiter: ! ','
+        format: ! '%u%n'
+        precision: 2
+        separator: .
+        significant: false
+        strip_insignificant_zeros: false
+        unit: $
+    format:
+      delimiter: ! ','
+      precision: 3
+      separator: .
+      significant: false
+      strip_insignificant_zeros: false
+    human:
+      decimal_units:
+        format: ! '%n %u'
+        units:
+          billion: مليار
+          million: مليون
+          quadrillion: الكدريليون رقم
+          thousand: ألف
+          trillion: تريليون
+          unit: ''
+      format:
+        delimiter: ''
+        precision: 3
+        significant: true
+        strip_insignificant_zeros: true
+      storage_units:
+        format: ! '%n %u'
+        units:
+          byte:
+            zero: Bytes
+            one: Byte
+            two: Bytes
+            few: Bytes
+            many: Bytes
+            other: Bytes
+          gb: GB
+          kb: KB
+          mb: MB
+          tb: TB
+    percentage:
+      format:
+        delimiter: ''
+    precision:
+      format:
+        delimiter: ''
+  support:
+    array:
+      last_word_connector: ! ', و '
+      two_words_connector: ! ' و '
+      words_connector: ! ', '
+  time:
+    am: صباحا
+    formats:
+      default: ! '%a %b %d %H:%M:%S %Z %Y'
+      long: ! '%B %d, %Y %H:%M'
+      short: ! '%d %b %H:%M'
+    pm: مساءا
+  # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
+  activemodel:
+    errors:
+      <<: *errors
+  activerecord:
+    errors:
+      <<: *errors
+  Empty: فارغ، يرجى ملء الحقل
+  EMPTY: فارغ، يرجى ملء الحقل
+  demo : "تجريبي "
+  a_copy_of_all_mail_will_be_sent_to_the_following_addresses : نسخة من الرسائل الى العناوين التالية 
+  abbreviation : أ. الاختصار 
+  access_denied : رفض الوصول 
+  account : حساب 
+  account_updated : تحديث حساب! 
+  action : عمل 
+  actions : 
+    cancel : إلغاء 
+    create : خلق 
+    destroy : هدم 
+    list : قائمة 
+    listing : قائمة 
+    new : جديد 
+    update : تحديث 
+  activate : "تفعيل "
+  active : "نشط"
+  activerecord : 
+    attributes : 
+      spree/address : 
+        address1 : عنوان 
+        address2 : "عنوان تتمة"  
+        city : مدينة 
+        country : "بلد "
+        firstname : "الاسم الأول" 
+        lastname : "اسم العائلة" 
+        phone : هاتف 
+        state : "دولة" 
+        zipcode : "الرمز البريدي" 
+      spree/country : 
+        iso : ISO 
+        iso3 : ISO3 
+        iso_name : "ISO اسم "
+        name : اسم 
+        numcode : "ISO قانون "
+      spree/credit_card : 
+        cc_type : نوع 
+        month : شهر 
+        number : عدد 
+        verification_value : "التحقق القيمة "
+        year : عام 
+      spree/inventory_unit : 
+        state : دولة 
+      spree/line_item : 
+        price : السعر 
+        quantity : كمية 
+      spree/option_type : 
+        name : اسم 
+        presentation : عرض 
+      spree/order : 
+        checkout_complete : "أكمل الخروج "
+        completed_at : "الانتهاء في"
+        created_at :   الترتيب التاريخ
+        email : العملاء البريد الإلكتروني 
+        ip_address : "العنوان IP "
+        item_total : "البند مجموع "
+        number : عدد 
+        payment_state : دفع الدولة 
+        shipment_state : شحنة الدولة 
+        special_instructions : تعليمات خاصة" "
+        state : دولة 
+        total : مجموع 
+      spree/order/bill_address : 
+        address1 : "العنوان الفواتير" 
+        city : "عنوان الفواتير المدينة "
+        firstname : "الفواتير اسم العنوان الأول" 
+        lastname : "اسم عنوان الفواتير مشاركة" 
+        phone : "الفواتير الهاتف العنوان" 
+        state : "عنوان الفواتير الدولة" 
+        zipcode : "عنوان الفواتير الرمز البريدي" 
+      spree/order/ship_address : 
+        address1 : "الشحن العنوان" 
+        city : "عنوان الشحن المدينة" 
+        firstname : "الشحن اسم العنوان الأول" 
+        lastname : "اسم آخر عنوان الشحن" 
+        phone : "الشحن الهاتف العنوان" 
+        state : "عنوان الشحن الدولة" 
+        zipcode : "عنوان الصندوق البريدي الشحن "
+      spree/payment_method : 
+        name : اسم 
+      spree/product : 
+        available_on : "متاح في "
+        cost_price : "سعر الكلفة "
+        description : وصف 
+        master_price : "ماجستير السعر "
+        name : اسم 
+        on_demand : "على الطلب" 
+        on_hand : "في الصندوق" 
+        shipping_category : "الفئة الشحن "
+        tax_category : "الفئة الضريبية" 
+      spree/promotion : 
+        advertise : أعلن 
+        code : رمز 
+        description : وصف 
+        event_name : اسم الحدث 
+        expires_at : ينتهي في 
+        name : اسم 
+        path : مسار 
+        starts_at : يبدأ في 
+        usage_limit : استخدام الحد 
+      spree/property : 
+        name : اسم 
+        presentation : عرض 
+      spree/prototype : 
+        name : اسم 
+      spree/return_authorization : 
+        amount : كمية 
+      spree/role : 
+        name : اسم 
+      spree/state : 
+        abbr : الاختصار 
+        name : اسم 
+      spree/tax_category : 
+        description : وصف 
+        name : اسم 
+      spree/tax_rate : 
+        amount : معدل 
+        included_in_price : المدرجة في السعر 
+        show_rate_in_label : تظهر قيم في التسمية 
+      spree/taxon : 
+        name : اسم 
+        permalink : الرابط الثابت 
+        position : موقف 
+      spree/taxonomy : 
+        name : اسم 
+      spree/user : 
+        email : البريد الإلكتروني 
+        password : "كلمة السر "
+        password_confirmation : "كلمة السر تأكيد "
+      spree/variant : 
+        cost_price : "سعر الكلفة "
+        depth : عمق 
+        height : ارتفاع 
+        price : السعر 
+        sku : SKU 
+        weight : الوزن 
+        width : عرض 
+      spree/zone : 
+        description : وصف 
+        name : اسم 
+    models : 
+      spree/address : 
+        one : عنوان 
+        other : عناوين 
+      spree/cheque_payment : 
+        one : شيك الدفع 
+        other : شيكات المدفوعات 
+      spree/country : 
+        one : بلد 
+        other : البلدان 
+      spree/credit_card : 
+        one : بطاقة الائتمان 
+        other : بطاقات الائتمان 
+      spree/creditcard_payment : 
+        one : الدفع بالبطاقة الائتمانية 
+        other : المدفوعات الائتمان بطاقة 
+      spree/creditcard_txn : 
+        one : بطاقة الائتمان المعاملات 
+        other : بطاقة الائتمان المعاملات 
+      spree/inventory_unit : 
+        one : المخزون وحدة 
+        other : وحدات المخزون 
+      spree/line_item : 
+        one : خط العرض 
+        other : خط الأصناف 
+      spree/order : 
+        one : النظام 
+        other : أوامر 
+      spree/payment : 
+        one : دفع 
+        other : المدفوعات 
+      spree/product : 
+        one : نتاج 
+        other : المنتجات 
+      spree/property : 
+        one : ممتلكات 
+        other : خصائص 
+      spree/prototype : 
+        one : النموذج 
+        other : نماذج 
+      spree/return_authorization : 
+        one : العودة التخويل 
+        other : العودة التراخيص 
+      spree/role : 
+        one : الأدوار 
+        other : الأدوار 
+      spree/shipment : 
+        one : شحنة 
+        other : شحنات 
+      spree/shipping_category : 
+        one : الفئة الشحن 
+        other : فئات الشحن 
+      spree/state : 
+        one : دولة 
+        other : الدول 
+      spree/tax_category : 
+        one : الفئة الضريبية 
+        other : ضريبة الفئات 
+      spree/tax_rate : 
+        one : ضريبة 
+        other : أسعار الضريبة 
+      spree/taxon : 
+        one : الأصناف 
+        other : Taxons 
+      spree/taxonomy : 
+        one : التصنيف 
+        other : التصنيفات 
+      spree/user : 
+        one : مستخدم 
+        other : المستخدمين 
+      spree/variant : 
+        one : متنوع 
+        other : المتغيرات 
+      spree/zone : 
+        one : منطقة 
+        other : المناطق 
+  add : إضافة 
+  add_action_of_type : إضافة إجراء من نوع 
+  add_category : إضافة فئة 
+  add_country : إضافة القطرية 
+  add_new_header : إضافة رأس جديد 
+  add_new_style : إضافة نمط جديد 
+  add_option_type : إضافة نوع الخيار 
+  add_option_types : إضافة أنواع الخيار 
+  add_option_value : إضافة قيمة الخيار 
+  add_product : إضافة منتج 
+  add_product_properties : إضافة خصائص المنتج 
+  add_rule_of_type : إضافة قاعدة من نوع 
+  add_scope : إضافة نطاق 
+  add_state : إضافة الدولة 
+  add_to_cart : أضف إلى السلة 
+  add_zone : إضافة منطقة 
+  additional_item : تكلفة إضافية المدينة 
+  address : عنوان 
+  address_information : عنوان المعلومات 
+  adjustment : تعديل 
+  adjustment_total : التعديل إجمالي 
+  adjustments : التعديلات 
+  admin : 
+    mail_methods : 
+      send_testmail : 'أرسل Testmail' 
+      testmail : 
+        delivery_error : 'خطأ Testmail طريقة الشحن و الدفع 
+        delivery_success : "أرسلت Testmail بنجاح ' 
+        error : خطأ Testmail 
+  administration : إدارة 
+  all : جميع 
+  all_departments : جميع الإدارات 
+  allow_backorders : تسمح Backorders 
+  allow_ssl_in_development_and_test : تسمح SSL ليتم استخدامها عند اختبار في التنمية وسائط 
+  allow_ssl_in_production : تسمح SSL لاستخدامها في وضع الإنتاج 
+  allow_ssl_in_staging : تسمح SSL لاستخدامها في وضع تنظيم 
+  allowed_ssl_in_production_mode : SSL٪ {} إرادة أن تستخدم في إنتاج 
+  already_registered : مسجل من قبل؟ 
+  alt_text : نص بديل 
+  alternative_phone : الهاتف البديل 
+  amount : كمية 
+  analytics_trackers : المقتفون تحليلات 
+  and : و 
+  apply : تطبق 
+  are_you_sure : هل أنت متأكد؟ 
+  are_you_sure_category : هل أنت متأكد أنك تريد حذف هذه الفئة؟ 
+  are_you_sure_delete : هل أنت متأكد أنك تريد حذف هذا السجل؟ 
+  are_you_sure_delete_image : هل أنت متأكد أنك تريد حذف هذه الصورة؟ 
+  are_you_sure_option_type : هل أنت متأكد أنك تريد حذف هذا النوع الخيار؟ 
+  are_you_sure_you_want_to_capture : هل أنت متأكد أنك تريد التقاط؟ 
+  assign_taxon : تعيين الأصناف 
+  assign_taxons : تعيين Taxons 
+  attachment_default_style : المرفقات ستايل 
+  attachment_default_url : المرفقات URL 
+  attachment_path : المرفقات مسار 
+  attachment_styles : مشبك أنماط 
+  authorization_failure : فشل التفويض 
+  authorized : المعتمدين 
+  availability : توفر 
+  available_on : متاح في 
+  available_taxons : تتوفر Taxons 
+  awaiting_return : بانتظار العودة 
+  back : ظهر 
+  back_end : النهاية الخلفية 
+  back_to_adjustments_list : العودة إلى قائمة التعديلات 
+  back_to_images_list : العودة إلى قائمة الصور 
+  back_to_mail_methods_list : العودة إلى بريد طرق قائمة 
+  back_to_option_tyles_list : العودة إلى قائمة أنواع الخيار 
+  back_to_payment_methods_list : العودة إلى قائمة طرق الدفع 
+  back_to_payments_list : العودة إلى قائمة المدفوعات 
+  back_to_products_list : الرجوع إلى قائمة المنتجات 
+  back_to_promotions_list : العودة إلى قائمة الترقيات 
+  back_to_properties_list : الرجوع إلى قائمة المنتجات 
+  back_to_prototypes_list : العودة إلى قائمة النماذج 
+  back_to_reports_list : العودة إلى قائمة تقارير 
+  back_to_shipping_categories : عودة إلى فئات الشحن 
+  back_to_shipping_methods_list : العودة إلى قائمة طرق الشحن 
+  back_to_states_list : الرجوع إلى قائمة الدول 
+  back_to_store : العودة إلى المتجر 
+  back_to_tax_categories_list : العودة إلى قائمة فئات الضرائب 
+  back_to_taxonomies_list : العودة إلى قائمة التصنيفات 
+  back_to_trackers_list : العودة إلى قائمة المقتفون 
+  back_to_zones_list : العودة إلى قائمة المناطق 
+  backordered : Backordered 
+  backordering_is_allowed : Backordering ٪{not} لا يسمح 
+  balance_due : الرصيد المستحق 
+  bill_address : فاتورة العنوان 
+  billing : الفواتير 
+  billing_address : العنوان الذي ترسل به الفواتير 
+  both : كلا 
+  calculator : آلة حاسبة 
+  category : الفئات
+  calculator_settings_warning : إذا كنت تقوم بتغيير نوع الآلة الحاسبة، يجب أولا حفظ قبل أن تتمكن من تعديل الضبط حاسبة 
+  cancel : إلغاء 
+  cancel_my_account : إلغاء حسابي 
+  cancel_my_account_description : غير سعيد؟ 
+  canceled : ألغيت 
+  cannot_create_payment_without_payment_methods : لا يمكنك إنشاء دفعة للأمر دون أي طرق الدفع المحددة. 
+  cannot_create_returns : لا يمكن إنشاء العوائد حيث قام هذا النظام لم يتم شحنها بعد. 
+  cannot_perform_operation : لا يمكن تنفيذ العملية المطلوبة 
+  capture : قبض على 
+  card_code : بطاقة الرمز 
+  card_details : بطاقة المعلومات 
+  card_number : بطاقة رقم 
+  card_type_is : نوع البطاقة 
+  cart : سلة 
+  categories : الفئات 
+  category : فئة 
+  change : تغيير 
+  change_language : تغيير اللغة 
+  change_my_password : تغيير كلمة السر 
+  charge_total : إجمالي تهمة 
+  charged : متهم 
+  charges : التهم 
+  checkout : الخروج 
+  cheque : شيك 
+  city : بلدة / مدينة 
+  clone : استنساخ 
+  code : رمز 
+  combine : دمج 
+  complete : كامل 
+  complete_list : قائمة كاملة 
+  configuration : ترتيب 
+  configuration_options : خيارات التكوين 
+  configurations : تكوينات 
+  configure_s3 : تكوين S3 
+  configured : تكوين 
+  confirm : أكد 
+  confirm_delete : تأكيد الحذف 
+  confirm_password : كلمة السر تأكيد 
+  continue : استمر 
+  continue_shopping : مواصلة التسوق 
+  copy_all_mails_to : نسخ جميع الرسائل إلى 
+  cost_price : سعر الكلفة 
+  count_of_reduced_by : عد من '%{name}' بنسبة %{COUNT} 
+  country : بلد 
+  country_based : واستنادا البلد 
+  coupon : قسيمة 
+  coupon_code : رمز القسيمة 
+  coupon_code_applied : تم تطبيقها بنجاح رمز القسيمة إلى أمرك. 
+  create : خلق 
+  create_a_new_account : إنشاء حساب جديد 
+  create_user_account : إنشاء حساب مستخدم 
+  created_successfully : إنشاء بنجاح 
+  credit : ائتمان 
+  credit_card : بطاقة الائتمان 
+  credit_card_capture_complete : تم القبض على بطاقة الائتمان 
+  credit_card_payment : الدفع بالبطاقة الائتمانية 
+  credit_cards : بطاقات الائتمان 
+  credit_owed : تستحق الائتمان 
+  credit_total : إجمالي الائتمان 
+  credits : الاعتمادات 
+  currency : عملة 
+  currency_settings : العملة إعدادات 
+  currency_symbol_position : وضع رمز عملة قبل أو بعد القيمة بالدولار؟ 
+  current : تيار 
+  customer : زبون 
+  customer_details : تفاصيل العملاء 
+  customer_details_updated : تم تحديث تفاصيل العميل. 
+  customer_search : البحث العملاء 
+  cut : قطع 
+  date_completed : اكتمل تاريخ 
+  date_created : تاريخ الإنشاء 
+  date_range : نطاق التاريخ 
+  debit : مدين 
+  default : الافتراضي 
+  default_meta_description : وصف ميتا الافتراضي 
+  default_meta_keywords : كلمات البحث الافتراضي ميتا 
+  default_seo_title : الافتراضي سيو عنوان 
+  default_tax : التهرب من الضريبة 
+  default_tax_zone : التهرب من الضريبة المنطقة 
+  defined_paperclip_styles : أنماط محددة مشبك الورق 
+  delete : حذف 
+  delivery : تسليم 
+  depth : عمق 
+  description : وصف 
+  destroy : هدم 
+  didnt_receive_confirmation_instructions : لم يتلق تعليمات تأكيد؟ 
+  didnt_receive_unlock_instructions : لم يتلق تعليمات فتح؟ 
+  discount_amount : خصم المبلغ 
+  dismiss_banner : شكرا رقم! أنا غير مهتم، لا تعرض هذه الرسالة مرة أخرى 
+  display : عرض 
+  display_currency : عرض العملة 
+  dollar_amounts_displayed_as : عرض كميات الدولار كنسبة مئوية {} سبيل المثال 
+  edit : تحرير 
+  edit_general_settings : تحرير إعدادات عامة 
+  editing_billing_integration : تحرير الفواتير التكامل 
+  editing_category : الفئة التحرير 
+  editing_mail_method : تحرير أسلوب البريد 
+  editing_option_type : تحرير نوع الخيار 
+  editing_option_types : تحرير أنواع الخيار 
+  editing_payment_method : تحرير طريقة الدفع 
+  editing_product : تحرير المنتج 
+  editing_product_group : تحرير مجموعة المنتج 
+  editing_promotion : تحرير الترويج 
+  editing_property : تحرير الملكية 
+  editing_prototype : تحرير نموذج 
+  editing_shipping_category : تحرير شحن الفئة 
+  editing_shipping_method : تحرير شحن طريقة 
+  editing_state : تحرير الدولة 
+  editing_tax_category : تحرير الفئة الضريبية 
+  editing_tax_rate : تحرير معدل الضريبة 
+  editing_tracker : تحرير المقتفي 
+  editing_user : تحرير المستخدم 
+  editing_zone : تحرير المنطقة 
+  email : البريد الإلكتروني 
+  email_address : عنوان البريد الإلكتروني 
+  empty_cart : سلة فارغة 
+  height : ارتفاع 
+  hello_user : مرحبا العضو 
+  history : تاريخ 
+  home : منزل 
+  icon : رمز 
+  icons_by : الرموز حسب 
+  image : صورة 
+  image_settings : صورة إعدادات 
+  image_settings_description : صورة إعدادات وصف 
+  image_settings_updated : تحديث إعدادات الصورة بنجاح. 
+  image_settings_warning : "وسوف تحتاج لتجديد الصور المصغرة إذا قمت بتحديث أساليب مشبك. استخدام مشبك أشعل النار: تحديث: الصور المصغرة للقيام بذلك."
+  images : الصور 
+  images_for : صور لل 
+  in_progress : في التقدم 
+  include_in_shipment : تدرج في الشحن 
+  included_in_other_shipment : المدرجة في شحنة أخرى 
+  included_in_price : المدرجة في السعر 
+  included_in_this_shipment : المدرجة في هذه الشحنة 
+  included_price_validation : لا يمكن تحديد إلا إذا كنت قد وضعت منطقة ضريبة الافتراضي 
+  instructions_to_reset_password : "ملء النموذج أدناه وسوف تكون عبر البريد الالكتروني تعليمات استعادة كلمة السر إليك:" 
+  insufficient_stock : الأسهم غير كافية،٪ فقط {} on_hand المتبقية 
+  integration_settings_warning : إذا كنت تقوم بتغيير التكامل الفواتير، يجب أولا حفظ قبل أن تتمكن من تعديل الضبط التكامل 
+  intercept_email_address : اعتراض البريد الإلكتروني 
+  intercept_email_instructions : تجاوز البريد الإلكتروني للمستلم واستبدالها مع هذا العنوان. 
+  invalid_search : معايير البحث غير صالحة. 
+  inventory : جرد 
+  inventory_adjustment : جرد التكيف 
+  inventory_setting_description : تكوين المخزون، Backordering، صفر أوراق العرض 
+  inventory_settings : جرد إعدادات 
+  is_not_available_to_shipment_address : ليست متاحة للشحن عنوان 
+  issue_number : العدد 
+  item : بند 
+  item_description : وصف السلعة 
+  item_total : البند مجموع 
+  item_total_rule : 
+    operators : 
+      gt : أكبر من 
+      gte : أكبر من أو يساوي 
+  landing_page_rule : 
+    path : مسار    
+  last_name : اسم العائلة 
+  last_name_begins_with : اسم العائلة يبدأ ب 
+  learn_more : تعرف على المزيد 
+  leave_blank_to_not_change : (اتركه فارغا إذا كنت لا تريد تغييره) 
+  list : قائمة 
+  listing_categories : قائمة التصنيفات 
+  listing_option_types : أنواع القائمة الخيار 
+  listing_orders : قائمة الطلبات 
+  listing_product_groups : المجموعات قائمة المنتجات 
+  listing_products : قائمة المنتجات 
+  listing_reports : تقارير الإدراج 
+  listing_tax_categories : فئات الضريبة الإدراج 
+  listing_users : قائمة المستخدمين 
+  live : يعيش 
+  loading : تحميل 
+  locale_changed : تغيير لغة 
+  logged_in_as : مسجله في 
+  logged_in_succesfully : تسجيل الدخول بنجاح تسجيل 
+  logged_out : خروجك لقد تم تسجيل 
+  login : دخول 
+  login_as_existing : كما سجل في القائمة العملاء 
+  login_failed : فشل مصادقة تسجيل الدخول. 
+  login_name : دخول 
+  logout : خروج 
+  look_for_similar_items : البحث عن المواد المماثلة 
+  maestro_or_solo_cards : المايسترو / سولو بطاقات 
+  mail_delivery_enabled : يتم تمكين تسليم البريد 
+  mail_delivery_not_enabled : لم يتم تمكين تسليم البريد 
+  mail_methods : طرق الإلكتروني 
+  mail_server_preferences : تفضيلات خادم البريد 
+  make_refund : جعل رد 
+  mark_shipped : بمناسبة يشحن 
+  master_price : ماجستير السعر 
+  match_choices : 
+    all : جميع 
+    none : لا شيء 
+    one : واحد 
+  match_rule : "المنتجات التي يجب أن تتطابق:" 
+  max_items : عناصر ماكس 
+  meta_description : وصف ميتا 
+  meta_keywords : كلمات ميتا 
+  metadata : البيانات الوصفية 
+  minimal_amount : الحد الأدنى من المبلغ 
+  missing_required_information : المعلومات الناقصة المطلوبة 
+  month : شهر 
+  more : أكثر 
+  my_account : حسابي 
+  my_orders : طلباتي 
+  name : اسم 
+  name_or_sku : الاسم أو SKU 
+  new : جديد 
+  new_adjustment : تعديل جديد 
+  new_billing_integration : جديد الفواتير التكامل 
+  new_category : فئة جديدة 
+  new_customer : عميل جديد 
+  new_group : مجموعة جديدة 
+  new_image : صورة جديدة 
+  new_mail_method : أسلوب جديد البريد 
+  new_option_type : خيار جديد نوع 
+  new_option_value : خيار جديد القيمة 
+  new_order : ترتيب جديد 
+  new_order_completed : اكتمال النظام الجديد 
+  new_payment : الدفع الجديدة 
+  new_payment_method : طريقة الدفع الجديدة 
+  new_product : منتج جديد 
+  new_product_group : جديد مجموعة المنتجات 
+  new_promotion : تعزيز جديدة 
+  new_property : خاصية جديدة 
+  new_prototype : النموذج الجديد 
+  new_return_authorization : العودة التفويض الجديد 
+  new_shipment : شحن جديدة 
+  new_shipping_category : الفئة الجديدة الشحن 
+  new_shipping_method : شحن طريقة جديدة 
+  new_state : الدولة الجديدة 
+  new_tax_category : ضريبة جديدة الفئة 
+  new_tax_rate : ضريبة جديدة 
+  new_taxon : الأصناف الجديدة 
+  new_taxonomy : تصنيف جديد 
+  new_tracker : المقتفي جديدة 
+  new_user : مستخدم جديد 
+  new_variant : البديل الجديد 
+  new_zone : منطقة جديدة 
+  next : التالي 
+  say_no : لا 
+  no_items_in_cart : سلة فارغة. 
+  no_match_found : لا نتائج تذكر لل 
+  no_products_found : لا توجد منتجات 
+  no_results : لا توجد نتائج 
+  no_rules_added : إضافة أية قواعد 
+  no_user_found : ولم يتم العثور على المستخدم مع هذا عنوان البريد الإلكتروني 
+  none : لا شيء 
+  none_available : لا شيء متاح 
+  normal_amount : المبلغ العادي 
+  not : ليس 
+  not_available : "N/A" 
+  not_found : "%{resource} من الموارد لم يتم العثور "
+  not_shown : لا تظهر 
+  note : لاحظ 
+  notice_messages : 
+    option_type_removed : إزالة بنجاح نوع الخيار. 
+    product_cloned : وقد تم استنساخ المنتج 
+    product_deleted : تم حذف المنتج 
+    product_not_cloned : لا يمكن أن المنتج يمكن استنساخ 
+    product_not_deleted : لا يمكن أن يتم حذف المنتج 
+    variant_deleted : تم حذف البديل 
+    variant_not_deleted : لا يمكن أن تحذف البديل 
+  on_hand : في الصندوق 
+  one_default_category_with_default_tax_rate : يجب تكوين فئة بالضبط الافتراضي الخاص بك واحدة مع البلدان معدل الضريبة الافتراضي 
+  operation : عملية 
+  option_type : الخيار نوع 
+  option_types : الخيار أنواع 
+  option_value : الخيار القيمة 
+  option_values : الخيار القيم 
+  options : خيارات 
+  or : أو 
+  or_over_price : "%{price} السعر أو أكثر "
+  order : النظام 
+  order_adjustments : تعديلات النظام 
+  order_confirmation_note : 
+  order_date : الترتيب التاريخ 
+  order_details : تفاصيل الطلب 
+  order_email_resent : إرسال أجل إعادة إرسال 
+  unverified : لم يتم التحقق منها
+  verified : التحقق
+  order_mailer : 
+    cancel_email : 
+      dear_customer : عزيزي العميل، 
+      instructions : تم إلغاء طلبك. يرجى الاحتفاظ بهذه المعلومات لإلغاء السجلات الخاصة بك. 
+      order_summary_canceled : ملخص طلب [بالإلغاء] 
+      subject : "إلغاء الأمر" 
+      subtotal: "المجموع الفرعي"
+      thanks : شكرا لعملك. 
+      total : "مجموع:"
+  order_not_in_system : هذا العدد غير صالح النظام على هذا الموقع. 
+  order_number : النظام 
+  order_operation_authorize : ف. خول, رخص, فوض, وكل, مد
+  order_processed_but_following_items_are_out_of_stock : "تم معالجة طلبك، ولكن العناصر التالية من المخزون" 
+  order_processed_successfully : وقد تم تجهيز طلبك بنجاح 
+  order_state : # مفاتيح تتوافق مع أسماء اطلب الدولة  keys correspond to Checkout state names:
+    address: عنوان
+    adjustments : التعديلات 
+    awaiting_return : بانتظار عودة 
+    canceled : ألغيت 
+    cart : عربة 
+    complete : كامل 
+    confirm : أكد 
+    delivery : تسليم 
+    payment : دفع 
+    resumed : استأنف 
+    returned : عاد 
+    skrill : skrill 
+  order_summary : ملخص النظام 
+  order_sure_want_to : هل أنت متأكد أنك تريد %{event} حدث هذا الأمر؟ 
+  order_total : إجمالي أجل 
+  order_total_message : فإن المبلغ الإجمالي المحملة على بطاقة يكون 
+  order_updated : تحديث النظام 
+  orders : أوامر 
+  other_payment_options : خيارات الدفع الأخرى 
+  out_of_stock : من المخزون 
+  over_paid : أكثر من المدفوع 
+  overview : نظرة عامة 
+  page_only_viewable_when_logged_in : لقد حاولت زيارة صفحة التي لا يمكن إلا أن ينظر إليها عند تسجيل دخولك في 
+  page_only_viewable_when_logged_out : لقد حاولت زيارة صفحة التي لا يمكن إلا أن ينظر إليها عند تسجيل الدخول إلى 
+  pagination : 
+    next_page : الصفحة التالية » 
+    previous_page : «الصفحة السابقة 
+    truncate : ... 
+  paid : مدفوع 
+  parent_category : الفئة الأم 
+  password : كلمة السر 
+  password_reset_instructions : تعليمات استعادة كلمة المرور 
+  password_reset_instructions_are_mailed : وقد عبر البريد الالكتروني تعليمات استعادة كلمة السر الخاصة بك لك. يرجى التحقق من البريد الإلكتروني الخاص بك. 
+  password_reset_token_not_found : نأسف، لكننا لا يمكن تحديد موقع حسابك. إذا كنت تواجه مشاكل محاولة نسخ ولصق URL من البريد الإلكتروني الخاص بك في المتصفح أو إعادة تشغيل عملية إعادة تعيين كلمة المرور. 
+  password_updated : كلمة المرور بنجاح تحديث 
+  paste : لصق 
+  path : مسار 
+  pay : دفع 
+  payment : دفع 
+  payment_actions : الإجراءات 
+  payment_gateway : بوابة الدفع 
+  payment_information : معلومات الدفع 
+  payment_method : طريقة الدفع 
+  payment_methods : طرق الدفع 
+  payment_methods_setting_description : يمكن للعملاء استخدام أساليب تكوين لدفع 
+  payment_processing_failed : لا يمكن أن يكون الدفع المجهزة، يرجى مراجعة التفاصيل التي أدخلتها 
+  payment_processor_choose_banner_text : إذا كنت في حاجة مساعدة في اختيار معالج الدفع، يرجى زيارة 
+  payment_processor_choose_link : لدينا المدفوعات الصفحة 
+  payment_state : دفع الدولة 
+  payment_states : 
+    balance_due : التوازن بسبب 
+    checkout : الخروج 
+    completed : الانتهاء 
+    credit_owed : الائتمان المستحقة 
+    failed : فشل 
+    paid : مدفوع 
+    pending : ريثما 
+    processing : تحويل 
+    void : باطل 
+  payment_updated : تحديث الدفع 
+  payments : المدفوعات 
+  pending_payments : الدفعات المعلقة 
+  percent_per_item : في المائة لكل بند 
+  permalink : الرابط الثابت 
+  phone : هاتف 
+  place_order : وضع الترتيب 
+  please_create_user : يرجى إنشاء حساب مستخدم 
+  please_define_payment_methods : يرجى تحديد بعض طرق الدفع الأولى. 
+  populate_get_error : حدث خطأ ما. يرجى حاول إضافة هذا البند مرة أخرى. 
+  powered_by : مدعوم من 
+  presentation : عرض 
+  preview : معاينة 
+  previous : سابق 
+  price : السعر 
+  price_range : حدود السعر 
+  price_sack : سعر كيس 
+  problem_authorizing_card : بطاقة الائتمان يجيز المشكلة 
+  problem_capturing_card : بطاقة الائتمان التقاط المشكلة 
+  problems_processing_order : كان لدينا مشاكل معالجة طلبك 
+  proceed_as_guest : لا شكرا، تابع كضيف 
+  process : عملية 
+  product : نتاج 
+  product_details : تفاصيل المنتج 
+  product_group : مجموعة المنتجات 
+  product_group_invalid : مجموعة المنتج غير صالح نطاقات 
+  product_groups : فئات المنتجات 
+  product_has_no_description : المنتج لا وصف 
+  product_properties : خصائص المنتج 
+  product_rule : 
+    choose_products : اختيار المنتجات 
+    label : يجب أن تحتوي على نظام تحديد  %{select} ن هذه المنتجات 
+    match_all : جميع 
+    match_any : واحد على الأقل 
+    product_source : 
+      group : من مجموعة المنتجات 
+      manual : اختيار يدويا 
+  product_scopes : 
+    groups : 
+      price : 
+        description : نطاقات لاختيار المنتجات التي تعتمد على السعر 
+        name : السعر 
+      search : 
+        description : نطاقات لاختيار المنتجات التي تعتمد على اسم، والكلمات الرئيسية ووصف المنتج 
+        name : البحث عن نص 
+      taxon : 
+        description : نطاقات لاختيار المنتجات القائمة على Taxons 
+        name : الأصناف 
+      values : 
+        description : نطاقات لاختيار المنتجات التي تعتمد على قيم الخيارات والممتلكات 
+        name : القيم 
+  scopes : 
+      ascend_by_name : 
+        name : يصعد حسب اسم المنتج 
+      ascend_by_updated_at : 
+        name : يصعد حسب التاريخ الادراك 
+      descend_by_name : 
+        name : تنحدر حسب اسم المنتج 
+      descend_by_updated_at : 
+        name : تنحدر من تاريخ الادراك 
+      in_name : 
+        args : 
+          words : كلام 
+        description : (مفصولة مسافة أو فاصلة) 
+        name : اسم المنتج وبعد 
+        sentence : اسم المنتج تحتوي على <EM> %s </ EM> 
+      in_name_or_description : 
+        args : 
+          words : كلام 
+        description : (مفصولة مسافة أو فاصلة) 
+        name : اسم المنتج أو قد بعد 
+        sentence : اسم أو وصف تحتوي على <EM> %s </ EM> 
+      in_name_or_keywords : 
+        args : 
+          words : كلام 
+        description : (مفصولة مسافة أو فاصلة) 
+        name : اسم المنتج أو الكلمات الرئيسية ميتا وبعد 
+        sentence : اسم أو الكلمات الرئيسية تحتوي على <EM> %s </ EM> 
+      in_taxons : 
+        args : 
+          "taxon_names" : "أسماء الأصناف" 
+        description : أسماء الأصناف يجب أن تكون مفصولة مساحة فاصلة أو (مثل أديداس، أحذية) 
+        name : في taxons وجميع نسلهم 
+        sentence : في ليالي <EM> %s </ EM> وجميع نسلهم 
+      master_price_gte : 
+        args : 
+          amount : كمية 
+        description : 
+        name : ماجستير أكبر أو يساوي السعر إلى 
+        sentence : السعر أكبر من أو تساوي 0.2 <EM> %s </ EM> 
+      master_price_lte : 
+        args : 
+          amount : كمية 
+        description : 
+        name : ماجستير أقل أو يساوي السعر إلى 
+        sentence : السعر أقل أو يساوي 0.2 <EM> %s </ EM> 
+      price_between : 
+        args : 
+          high : ارتفاع 
+          low : منخفض 
+        description : تحديد كافة المنتجات التي حددت الخيار (اللون مثلا) 
+        name : مع الخيار 
+        sentence : مع خيار <EM> %s </ EM> 
+      with_option_value : 
+        args : 
+          option : خيار 
+          value : قيمة 
+        description : "تحديد كافة المنتجات التي حددت الخيار (اللون مثلا(" 
+        name : مع الخيار والقيمة 
+        sentence : مع خيار <EM> %s </ EM> والقيمة <EM> %s </ EM> 
+      with_property : 
+        args : 
+          property : ممتلكات 
+        description : تحديد كافة المنتجات التي حددت الملكية (الوزن مثلا) 
+        name : مع الملكية 
+        sentence : مع الملكية <EM> %s </ EM> 
+      with_property_value : 
+        args : 
+          property : ممتلكات 
+          value : قيمة 
+        description : "تحديد كافة المنتجات التي تحتوي على متغير واحد على الأقل مع الخاصية المحددة والقيمة (مثلا الوزن: 10KG)" 
+        name : مع قيمة العقار 
+        sentence : مع الملكية <EM> %s </ EM> والقيمة <EM> %s </ EM> 
+  products : المنتجات 
+  products_with_zero_inventory_display : سوف المنتجات مع وجود مخزون صفر %{not} لا يتم عرض 
+  promotion : ترويج 
+  promotion_action : تعزيز العمل 
+  promotion_action_types : 
+    create_adjustment : 
+      description : يخلق التكيف الائتمان على تعزيز النظام 
+      name : خلق التكيف 
+    create_line_items : 
+      description : بملء عربة مع كمية محددة من البديل 
+      name : إنشاء عناصر خط 
+    give_store_credit : 
+      description : يعطي الائتمان مخزن المستخدم من المبلغ المحدد 
+      name : يعطي المزيد من المصداقية مخزن 
+  promotion_actions : الإجراءات 
+  promotion_form : 
+    match_policies : 
+      all : تطابق أي من هذه القواعد 
+      any : تجمع كل من هذه القواعد 
+  promotion_not_found : رمز القسيمة الذي أدخلته غير موجود. يرجى المحاولة مرة أخرى. 
+  promotion_rule : تعزيز القاعدة 
+  promotion_rule_types : 
+    first_order : 
+      description : يجب أن يكون النظام العميل الأول 
+      name : أول أمر 
+    item_total : 
+      description : إجمالي أجل تجتمع هذه المعايير 
+      name : البند مجموع 
+    landing_page : 
+      description : يجب أن يكون العميل بزيارة صفحة معينة 
+      name : الصفحة المقصودة 
+    product : 
+      description : النظام يشمل المنتج المحدد (ق) 
+      name : منتج (منتجات) 
+    user : 
+      description : متوفرة فقط للمستخدمين المحدد 
+      name : مستخدم 
+    user_logged_in : 
+      description : متاحة فقط للمستخدمين تسجيل الدخول 
+      name : مستخدم تسجيل الدخول 
+  promotions : الترقيات 
+  promotions_description : إدارة العروض وكوبونات مع الترقيات 
+  properties : خصائص 
+  property : ممتلكات 
+  prototype : النموذج 
+  prototypes : نماذج 
+  provider : مزود 
+  provider_settings_warning : إذا كنت تقوم بتغيير نوع موفر، يجب أولا حفظ قبل أن تتمكن من تعديل الضبط مزود 
+  qty : الكمية 
+  quantity_returned : عاد الكمية 
+  quantity_shipped : الكمية التي يتم شحنها 
+  range : نطاق 
+  rate : معدل 
+  reason : سبب 
+  recalculate_order_total : إعادة حساب إجمالي أجل 
+  receive : تسلم 
+  received : تلقى 
+  refund : إعادة مال 
+  register : سجل كمستخدم جديد 
+  register_or_guest : الخروج كضيف أو التسجيل 
+  registration : تسجيل 
+  remember_me : تذكرني 
+  remove : نزع 
+  rename : إعادة تسمية 
+  reports : تقارير 
+  required_for_solo_and_maestro : اللازمة لمسافر وبطاقات مايسترو. 
+  resend : إعادة إرسال 
+  resend_confirmation_instructions : إعادة إرسال تعليمات تأكيد 
+  resend_unlock_instructions : إعادة إرسال تعليمات فتح 
+  reset_password : إعادة تعيين كلمة المرور الخاصة بي 
+  resource_controller : 
+    member_object_not_found : لم يتم العثور على الكائن العضو. 
+    successfully_created : إنشاء بنجاح! 
+    successfully_removed : إزالة بنجاح! 
+    successfully_updated : تحديث بنجاح! 
+  response_code : استجابة مدونة 
+  resume : استأنف 
+  resumed : استأنف 
+  return : عودة 
+  return_authorization : العودة التفويض 
+  return_authorization_updated : إذن العودة تحديث 
+  return_authorizations : عودة التراخيص 
+  return_quantity : العودة الكمية 
+  returned : عاد 
+  review : مراجعة 
+  rma_credit : RMA الائتمان 
+  rma_number : RMA رقم 
+  rma_value : RMA القيمة 
+  roles : الأدوار 
+  rules : قواعد 
+  s3_access_key : مفتاح الوصول 
+  s3_bucket : دلو 
+  s3_headers : S3 الرؤوس 
+  s3_not_used_for_product_images : لا S3 تستخدم لصور المنتجات 
+  s3_protocol : S3 البروتوكول 
+  s3_secret : سر مفتاح 
+  s3_used_for_product_images : يتم استخدام المنتج للصور S3 
+  sales_tax : ضريبة المبيعات 
+  sales_total : إجمالي المبيعات 
+  sales_total_description : إجمالي المبيعات لجميع أوامر 
+  save_and_continue : حفظ ومتابعة 
+  save_preferences : حفظ التفضيلات 
+  scope : مجال 
+  scopes : نطاقات 
+  search : البحث 
+  search_results : نتائج البحث عن '{} كلمات البحث٪' 
+  searching : البحث 
+  secure_connection_type : نوع اتصال آمن 
+  secure_credit_card : آمنة بطاقة الائتمان 
+  security_settings : إعدادات الأمان 
+  select : حدد 
+  select_from_prototype : حدد من النموذج 
+  select_preferred_shipping_option : حدد الخيار المفضل تسليم 
+  send_copy_of_all_mails_to : إرسال نسخة من جميع الرسائل الالكترونية ل 
+  send_copy_of_orders_mails_to : أرسل نسخة من رسائل أجل 
+  send_mails_as : كما أرسل رسائل 
+  send_me_reset_password_instructions : أرسل لي كلمة المرور تعليمات إعادة تعيين 
+  send_order_mails_as : إرسال الرسائل الالكترونية وترتيب 
+  server : خادم 
+  server_error : عاد الخادم خطأ 
+  settings : إعدادات 
+  ship : سفينة 
+  ship_address : سفينة العنوان 
+  shipment : شحنة 
+  shipment_details : تفاصيل الشحن 
+  shipment_inc_vat : بما في ذلك شحن VAT 
+  shipment_mailer : 
+    shipped_email : 
+      dear_customer : عزيزي العميل، 
+      instructions : وقد تم شحن طلبك 
+      shipment_summary : ملخص الشحن 
+      subject : شحنة إعلام 
+      thanks : شكرا لعملك. 
+      track_information : "معلومات تتبع %{tracking} تتبع "
+  shipment_number : شحنة # 
+  shipment_state : شحنة الدولة 
+  shipment_states : 
+    backorder : الأمر المؤجل 
+    partial : جزئي 
+    pending : ريثما 
+    ready : استعداد 
+    shipped : شحن 
+  shipment_updated : تحديث شحن 
+  shipments : شحنات 
+  shipped : شحن 
+  shipping : تسليم 
+  shipping_address : التسليم العنوان 
+  shipping_categories : فئات الشحن 
+  shipping_categories_description : إدارة الفئات الشحن لتحديد المنتجات التي يمكن شحنها عن طريق الطريقة التي 
+  shipping_category : الفئة الشحن 
+  shipping_category_choose : الفئة الشحن 
+  shipping_cost : كلف 
+  shipping_error : تسليم خطأ 
+  shipping_instructions : تعليمات تسليم 
+  shipping_method : أسلوب التسليم 
+  shipping_methods : طرق التسليم 
+  shipping_methods_description : إدارة طرق الشحن 
+  shipping_total : تسليم إجمالي 
+  shop_by_taxonomy : التسوق%{taxonomy} التصنيف 
+  shopping_cart : التسوق سلة 
+  short_description : وصف قصير 
+  show : عرض 
+  show_active : تظهر بالموقع 
+  show_deleted : تظهر المحذوفة 
+  show_incomplete_orders : تظهر أوامر غير كاملة 
+  show_only_complete_orders : تظهر فقط أوامر كاملة 
+  show_only_unfulfilled_orders : تظهر أوامر فقط لم تتحقق 
+  show_out_of_stock_products : تظهر خارج المخزون منتجات 
+  showing_first_n : عرض 1٪ {ن} 
+  sign_up : الاشتراك 
+  site_name : اسم الموقع 
+  site_url : موقع URL 
+  sku : SKU 
+  smtp : SMTP 
+  smtp_authentication_type : SMTP مصادقة نوع 
+  smtp_domain : SMTP المجال 
+  smtp_mail_host : SMTP البريد المضيف 
+  smtp_password : SMTP كلمة المرور 
+  smtp_port : SMTP بورت 
+  smtp_send_all_emails_as_from_following_address : إرسال جميع الرسائل اعتبارا من العنوان التالي. 
+  smtp_send_copy_to_this_addresses : يرسل نسخة من جميع الرسائل الصادرة إلى هذا العنوان. لعناوين متعددة، منفصلة بفواصل. 
+  smtp_username : SMTP اسم المستخدم 
+  sold : بيع 
+  sort_ordering : نوع الطلب 
+  special_instructions : تعليمات خاصة 
+  spree/order : 
+    coupon_code : رمز القسيمة 
+  spree : 
+    date : تاريخ 
+    date_picker : 
+      format : ! '٪ Y /٪ م / د٪' 
+      js_format : 'YY / MM / DD' 
+    time : مرة 
+  spree_alert_checking : تحقق من وجود الأمن المرح والتنبيهات الإفراج 
+  spree_alert_not_checking : لا التحقق من المرح والتنبيهات الأمنية الإفراج 
+  spree_gateway_error_flash_for_checkout : هناك مشكلة مع معلومات الدفع الخاصة بك. يرجى التحقق من المعلومات الخاصة بك وحاول مرة أخرى. 
+  spree_inventory_error_flash_for_insufficient_quantity : أصبح عنصر في عربة التسوق متوفر. 
+  ssl_will_be_used_in_development_and_test_modes : وسوف تستخدم SSL في وضع التنمية واختبار إذا لزم الأمر. 
+  ssl_will_be_used_in_production_mode : وسوف تستخدم SSL في وضع الإنتاج 
+  ssl_will_be_used_in_staging_mode : وسوف تستخدم SSL في تنظيم وضع 
+  ssl_will_not_be_used_in_development_and_test_modes : لن SSL استخدامها في التنمية ووضع الاختبار إذا لزم الأمر. 
+  ssl_will_not_be_used_in_production_mode : لن يتم استخدام SSL في وضع الإنتاج 
+  ssl_will_not_be_used_in_staging_mode : لن SSL استخدامها في وضع التدريج 
+  start : بداية 
+  start_date : صالحة من 
+  state : دولة 
+  state_based : دولة قائمة 
+  state_setting_description : إدارة قائمة الدول / المحافظات المرتبطة بكل بلد. 
+  states : الدول 
+  status : حالة 
+  stop : توقف 
+  store : تخزين 
+  street_address : عنوان الشارع 
+  street_address_2 : "عنوان الشارع (تابع)" 
+  subtotal : المجموع الفرعي 
+  subtract : طرح 
+  successfully_created : "{resource}٪ من الموارد قد تم بنجاح إنشاء! "
+  successfully_removed : "{resource}٪ الموارد تمت إزالة بنجاح!" 
+  successfully_updated : "{resource}٪ من الموارد قد تم تحديثه بنجاح!" 
+  system : نظام 
+  tax : ضريبة 
+  tax_categories : ضريبة الفئات 
+  tax_categories_setting_description : انشاء فئات ضريبة لتحديد المنتجات التي يجب أن تخضع للضريبة. 
+  tax_category : الفئة الضريبية 
+  tax_rates : أسعار الضريبة 
+  tax_rates_description : أسعار ضريبة الإعداد والتكوين. 
+  tax_settings : ضريبة إعدادات 
+  tax_settings_description : إعدادات الضريبة الأساسية. 
+  tax_total : ضريبة إجمالي 
+  tax_type : ضريبة نوع 
+  taxon : الأصناف 
+  taxon_edit : تحرير الأصناف 
+  taxonomies : التصنيفات 
+  taxonomies_setting_description : إنشاء وإدارة التصنيفات 
+  taxonomy : التصنيف 
+  taxonomy_edit : تحرير التصنيف 
+  taxonomy_tree_error : لم يتم قبول التغيير المطلوب ولقد تم إرجاع الشجرة إلى حالته السابقة، يرجى المحاولة مرة أخرى. 
+  taxonomy_tree_instruction : "* انقر بزر الماوس الأيمن طفل في شجرة للوصول إلى القائمة لإضافة أو حذف أو الفرز طفل"
+  taxons : Taxons 
+  test : اختبار 
+  test_mailer : 
+    test_email : 
+      greeting : "تهانينا!" 
+      message : "إذا كنت قد تلقيت رسالة البريد الإلكتروني هذه، ثم إعدادات البريد الإلكتروني صحيحة." 
+      subject : 'Testmail' 
+  test_mode : اختبار الوضع 
+  thank_you_for_your_order : شكرا لعملك. يرجى طباعة نسخة من هذه الصفحة تأكيد للسجلات. 
+  there_were_problems_with_the_following_fields : كانت هناك مشاكل مع الحقول التالية 
+  this_file_language : الإنجليزية (أستراليا) 
+  thumbnail : ظفر الإبهام 
+  to_add_variants_you_must_first_define : لإضافة متغيرات، يجب أولا تعريف 
+  to_state : إلى الدولة 
+  total : مجموع 
+  tracking : ملاحقة 
+  transaction : صفقة 
+  transactions : المعاملات 
+  tree : شجرة 
+  try_again : حاول مرة أخرى 
+  type : نوع 
+  type_to_search : اكتب للبحث 
+  unable_ship_method : غير قادر على توليد طرق التسليم بسبب خطأ في الخادم. 
+  unable_to_authorize_credit_card : غير قادر على Authorise بطاقة الائتمان 
+  unable_to_capture_credit_card : غير قادر على التقاط بطاقة الائتمان 
+  unable_to_connect_to_gateway : غير قادر على الاتصال العبارة. 
+  unable_to_save_order : غير قادر على حفظ ترتيب 
+  under_paid : تحت المدفوعة 
+  under_price : تحت %{price} السعر 
+  unrecognized_card_type : غير المعترف بها نوع بطاقة 
+  update : تحديث 
+  update_password : تحديث كلمة السر الخاصة بي وتسجيل البيانات في 
+  updated_successfully : تحديث بنجاح 
+  updating : تحديث 
+  usage_limit : استخدام الحد 
+  use_as_shipping_address : يستعمل مثل عنوان التسليم 
+  use_billing_address : استخدام العنوان الفواتير 
+  use_different_shipping_address : استخدام مختلف عنوان التسليم 
+  use_new_cc : استخدام بطاقة جديدة 
+  use_s3 : استخدام الأمازون S3 للصور 
+  user : مستخدم 
+  user_account : حساب المستخدم 
+  user_created_successfully : إنشاء المستخدم بنجاح 
+  user_rule : 
+    choose_users : اختيار المستخدمين 
+  users : المستخدمين 
+  validate_on_profile_create : تحقق من صحة الملف على خلق 
+  validation : 
+    cannot_be_greater_than_available_stock : لا يمكن أن تكون أكبر من المخزون المتاح. 
+    cannot_be_less_than_shipped_units : لا يمكن أن يكون أقل من عدد الوحدات التي يتم شحنها. 
+    cannot_destory_line_item_as_inventory_units_have_shipped : لا يمكن destory بند وبعض وحدات المخزون والتي يتم شحنها. 
+    is_too_large : كبير جدا - الأسهم في متناول اليد لا يمكن أن تغطي الكمية المطلوبة! 
+    must_be_int : يجب أن يكون صحيحا 
+    must_be_non_negative : يجب أن تكون قيمة غير سلبية 
+  value : قيمة 
+  variant : متنوع 
+  variants : المتغيرات 
+  vat : GST 
+  version : نص 
+  view_shipping_options : عرض خيارات الشحن 
+  void : باطل 
+  website : الموقع 
+  weight : الوزن 
+  welcome_to_sample_store : مرحبا بكم في متجر عينة 
+  what_is_a_cvv : ما هي بطاقة الائتمان (CVV) كود؟ 
+  what_is_this : ما هذا؟ 
+  whats_this : ما هذا؟ 
+  width : عرض 
+  year : عام 
+  say_yes : نعم 
+  you_have_been_logged_out : لقد تم تسجيل خروجك. 
+  you_have_no_orders_yet : لا يوجد لديك أوامر حتى الان. 
+  your_cart_is_empty : سلتك فارغة 
+  zip : الرمز البريدي 
+  zone : منطقة 
+  zone_based : منطقة القائم 
+  zone_setting_description : لاستخدامها مجموعات من الدول والبلدان أو المناطق الأخرى في العمليات الحسابية المختلفة. 
+  zones : المناطق
